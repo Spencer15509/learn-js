@@ -1,25 +1,56 @@
- //variables and data types in javascript
+//operators and expressions
+
+let sum = 2 + 3;
+let product = 2 * 4;// arithmetic operator
+
+let x = 4;
+let y = x + 5;
+
+let h = 5;
+h += 2 ;//assingmemt operators
+let student = age >= 18;
  
-let firstname ="haruna umar";//string data type
-let z = 15;
-let price = 14.55;// number data type
-const lastname = 'sanda umar';//constant string cannot change
+let a = 5 ;
+a -= 4;//subtract and assign
 
-let isdeveloper = true;
-let isbroke = false;//boolean data type
+let b = 10;
+b *= 10 ;//multiply and assign
 
-let currency ;//undefined
-let x = 14;//number data type
-let y = null;//empty data type
+//comparison operators
+let c = 9;
+c == '9';
+c === '9';
+c === 9 ;
+c != 8 ;
+c !== 9;
+c > 10;
+c < 10;
+c <= 10;
+c >= 8;
 
-let student = {
-    regn0 : 1045,
-    age : 17,
-    faculty : computing
-};//object stores collection of key value pairs
-console.log(student.age);
+let j = 10;
+let isequal =  (10 == 9);//false
+let isnotequal = (10 === '10');//true
 
-var $colors = [
-     black, red, purple
-];//ordered collection of values in a single variable
+let notequal = (10 != 9);//true
+let Notequal = (10 !== '10');//true
+let isbigger = (10 > 11);//false
+let issmaller = (10 < 15);//true
+
+//logical operators
+
+let l = 9; 
+let o = 7
+
+//for && if both expression are true then the return is true else false
+(l === 9 && o === 7);//true
+(l !== 9 && o === 7 );//false
+
+//for || if one or both the expressions are true then return is true else false
+(l > 10 || o < 9);//true
+(l < 2 || o > 10);//false
+
+//for (!) is true for false expressions and false for true expressions
+!(l === 9);//false
+!(o < 6);//true
 
