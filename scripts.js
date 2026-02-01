@@ -1,5 +1,7 @@
 //operators and expressions
 
+const console = require("console");
+
 let sum = 2 + 3;
 let product = 2 * 4;// arithmetic operator
 
@@ -8,6 +10,7 @@ let y = x + 5;
 
 let h = 5;
 h += 2 ;//assingmemt operators
+let age = 18;
 let student = age >= 18;
  
 let a = 5 ;
@@ -36,15 +39,17 @@ let notequal = (10 != 9);//true
 let Notequal = (10 !== '10');//true
 let isbigger = (10 > 11);//false
 let issmaller = (10 < 15);//true
+console.log(notequal);
 
 //logical operators
 
 let l = 9; 
-let o = 7
+let o = 7;
 
 //for && if both expression are true then the return is true else false
 (l === 9 && o === 7);//true
 (l !== 9 && o === 7 );//false
+console.log(l === 9);
 
 //for || if one or both the expressions are true then return is true else false
 (l > 10 || o < 9);//true
